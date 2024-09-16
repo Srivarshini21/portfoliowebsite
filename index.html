@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hi, I'm <span >Mavuri Srivarshini</span></h1>
+        <p>B.Tech Student and Aspiring Web Developer</p>
+        <button onclick="window.location.href='#contact'">Contact Me</button>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+        <div class="profile-container">
+            <img src="your-profile-image.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a B.Tech student passionate about web development and coding.<br> Currently pursuing my degree in Computer Science from CMR College of Engineering & Technology.</p>
+                <p>Education:</p>
+                <ul>
+                    <li>B.Tech, Computer Science (2022-2026)</li>
+                    <li>CGPA: 8.2</li>
+                    <li>CMR College of Engineering & Technology</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" data-aos="fade-right">
+        <h2>Skills</h2>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>HTML</p>
+            <div class="bar">
+                <div class="progress" style="width: 95%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>CSS</p>
+            <div class="bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>JavaScript</p>
+            <div class="bar">
+                <div class="progress" style="width: 80%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>Bootstrap</p>
+            <div class="bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>C</p>
+            <div class="bar">
+                <div class="progress" style="width: 95%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>C++</p>
+            <div class="bar">
+                <div class="progress" style="width: 85%"></div>
+            </div>
+        </div>
+        <div class="skill-bar" data-aos="fade-right">
+            <p>Java</p>
+            <div class="bar">
+                <div class="progress" style="width: 85%"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project" data-aos="flip-left">
+                <h3>Simon Game</h3>
+                <p>This project is a memory-based game built with HTML, CSS,<br> JavaScript, and jQuery.</p>
+            </div>
+            <div class="project" data-aos="flip-left">
+                <h3>Portfolio Website</h3>
+                <p>A personal website to showcase my skills, projects, and achievements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="mailto:srivarshinimavuri19@gmail.com" class="contact-icon"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/srivarshinimavuri" target="_blank" class="contact-icon"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Srivarshini21" target="_blank" class="contact-icon"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mavuri Srivarshini. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
